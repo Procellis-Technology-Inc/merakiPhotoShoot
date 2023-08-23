@@ -6,3 +6,5 @@ APP:
   camera_location: <set this to whatever you like>
 SENSOR:
   camera_serial: <get from meraki>
+  sensor_key: <get from meraki>
+
