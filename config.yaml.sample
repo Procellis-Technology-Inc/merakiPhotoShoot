@@ -1,0 +1,8 @@
+APP:
+  api_key: <get from meraki>
+  flask_port: <set this to an open port on your local network>
+  room_id: <get this with an API call to webex>
+  bot_name: <set this to whatever you like>
+  camera_location: <set this to whatever you like>
+SENSOR:
+  camera_serial: <get from meraki>
