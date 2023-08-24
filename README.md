@@ -18,6 +18,7 @@ When taking photos, privacy and data security could be compromised, so it is hig
 
 ## Installation Steps
 1.	Install Python 3.11
+https://www.python.org/downloads/release/python-3114/
 2.	Clone the repository from https://github.com/Procellis-Technology-Inc/merakiPhotoShoot.git
 3.	Create a virtual environment
 ```
