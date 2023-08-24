@@ -5,10 +5,14 @@ Take pictures with webhooks and your Meraki cameras
 1.	Install Python 3.11
 2.	Clone the repository from https://github.com/Procellis-Technology-Inc/merakiPhotoShoot.git
 3.	Create a virtual environment
-- Python -m venv venv
-- .\venv\Scripts\activate
+```
+Python -m venv venv
+.\venv\Scripts\activate
+```
 4.	Install requirements
+```
 - Pip install -r requirements.txt
+```
 5.	Rename config.yaml.sample to config.yaml
 
 ## Make a Webex Bot
@@ -38,7 +42,9 @@ https://developer.webex.com/my-apps/new/bot
 
 ## Running the application
 In a terminal navigate to the root of your application and run
-- Python main.py
+```
+Python main.py
+```
 
 ## Make a webhook
 1.	Send the following API call
