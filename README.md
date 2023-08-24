@@ -11,7 +11,7 @@ Python -m venv venv
 ```
 4.	Install requirements
 ```
-- Pip install -r requirements.txt
+Pip install -r requirements.txt
 ```
 5.	Rename config.yaml.sample to config.yaml
 
