@@ -38,7 +38,7 @@ https://developer.webex.com/my-apps/new/bot
 10.	Cameras > monitor > cameras > select the camera you want > network
 11.	Grab the serial number from the left pane and put in your config file
 12.	Click on the person icon in the top right corner > my profile
-13.	Scroll down to API access > generate a new API key > copy to config file
+13.	Scroll down to API access > generate a new API key > copy to sensor_key config file
 
 ## Running the application
 In a terminal navigate to the root of your application and run
