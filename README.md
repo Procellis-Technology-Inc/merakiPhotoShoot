@@ -1,5 +1,20 @@
 # merakiPhotoShoot
-Take pictures with webhooks and your Meraki cameras
+Take pictures with Webex webhooks and your Meraki cameras.
+
+## Technology stack: 
+Python 3.11+
+Flask
+Webex
+Meraki MV Cameras
+
+## Use Case
+This is a basic set of components for working with a Webex bot to use the Meraki MV APIs.  It is highly insecure, so it is not recommended in a private or live production environment.  The intention of this project was to share what we created with the hope that someone would take it and make something wonderful with it.
+
+One use case we envisioned for this technology would be to check the occupancy of a garage with limited parking available.  Rather than opening the garage door to look inside, you could send a webex message and see how many available parking spaces there were.  It could also be used to check if the garbage and recycling had been taken out, whether lights were left on, who is ringing the doorbell, or whether a conference room was occupied.  In conjunction with a Meraki MT20 Open/Close sensor, it could be used to snap photos and share them on webex automatically when a server rack or door is opened.  It has been tested to work with Google Assistant to use voice commands to take the photo, though that implementation is beyond the scope of this repository.
+
+## Security Issues
+Webex bots can be added to any webex team without any sort of authorization check.  If the photos are being sent to the webex bot itself this means it could be used to take photos by a malicious agent.  To remediate this, photos should only be sent to a Webex Space in your organization.
+When taking photos, privacy and data security could be compromised, so it is highly recommended to use this in a public area with the permission of those using the space.
 
 ## Installation Steps
 1.	Install Python 3.11
