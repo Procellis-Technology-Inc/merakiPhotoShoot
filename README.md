@@ -81,3 +81,19 @@ Python main.py
 ## Testing
 In Webex send a message to the bot’s room starting with “/say cheese”
 If everything worked correctly, the bot should capture and display a still image from the camera you selected.
+
+## License
+Copyright (C) 2023 Procellis Technology, Inc.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
