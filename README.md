@@ -30,7 +30,7 @@ https://developer.webex.com/my-apps/new/bot
 5.	Make an API call to Webex using the following information
 -	GET
 -	https://webexapis.com/v1/rooms
--	Authorization: bearer <Api Key>
+-	Authorization: bearer {Api Key}
 6.	Choose the room of your bot and copy the id to your config file
 7.	Set bot name to whatever you want
 8.	Set camera location to whatever you want
@@ -50,7 +50,7 @@ Python main.py
 1.	Send the following API call
 -	POST
 -	https://webexapis.com/v1/webhooks
-- Authorization Bearer <Api Key>
+- Authorization Bearer {Api Key}
 -  ###	Header
 -  Content-Type: application/json
 -  ###	Body
