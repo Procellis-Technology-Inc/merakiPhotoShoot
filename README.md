@@ -57,7 +57,7 @@ Python main.py
 ``` 
 {
   "name": "<enter whatever you want>",
-  "targetUrl": "<public URL where your script will run>:<port>”,
+  "targetUrl": "http://<public URL where your script will run>:<port>",
   "resource": "messages",
   "event": "created",
   "filter": "roomId=<room id>"
