@@ -39,6 +39,19 @@ https://developer.webex.com/my-apps/new/bot
 4.	Add bot to Webex using the plus button at the top of the webex app and entering the username you specified @webex.bot
 
 ## Configuration File (config.yaml)
+
+```
+APP:
+  api_key: <get from developer.webex.com>
+  flask_port: <set this to an open port on your local network>
+  room_id: <get this with an API call to webex>
+  bot_name: <set this to whatever you like>
+  camera_location: <set this to whatever you like>
+SENSOR:
+  camera_serial: <get from meraki dashboard>
+  sensor_key: <get from meraki dashboard>
+```
+
 1.	Navigate to developer.webex.com and log in
 2.	Documentation > Access the API
 3.	Copy your personal access token and paste it as api_key into the config.yaml file
