@@ -2,10 +2,10 @@
 Take pictures with Webex webhooks and your Meraki cameras.
 
 ## Technology stack: 
-Python 3.11+
-Flask
-Webex
-Meraki MV Cameras
+* Python 3.11+
+* Flask
+* Webex
+* Meraki MV Cameras
 
 ## Use Case
 This is a basic set of components for working with a Webex bot to use the Meraki MV APIs.  It is highly insecure, so it is not recommended in a private or live production environment.  The intention of this project was to share what we created with the hope that someone would take it and make something wonderful with it.
