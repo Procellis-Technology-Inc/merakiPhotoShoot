@@ -55,13 +55,13 @@ Python main.py
 -  Content-Type: application/json
 -  ###	Body
 ``` 
-1. {
-2.	  "name": "<enter whatever you want>",
-3.	  "targetUrl": "<public URL where your script will run>:<port>”,
-4.	  "resource": "messages",
-5.	  "event": "created",
-6.	  "filter": "roomId=<room id>"
-7.	}
+{
+  "name": "<enter whatever you want>",
+  "targetUrl": "<public URL where your script will run>:<port>”,
+  "resource": "messages",
+  "event": "created",
+  "filter": "roomId=<room id>"
+}
 ```
 ## Testing
 In Webex send a message to the bot’s room starting with “/say cheese”
