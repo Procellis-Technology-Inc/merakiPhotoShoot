@@ -23,9 +23,9 @@ https://developer.webex.com/my-apps/new/bot
 4.	Add bot to Webex using the plus button at the top of the webex app and entering the username you specified @webex.bot
 
 ## Configuration File (config.yaml)
-1.	Navigate to developer.webex.com
+1.	Navigate to developer.webex.com and log in
 2.	Documentation > Access the API
-3.	Copy your personal access token and paste it as api_key
+3.	Copy your personal access token and paste it as api_key into the config.yaml file
 4.	Choose any open port on your network and enter it as flask port (I use 12505)
 5.	Make an API call to Webex using the following information
 -	GET
